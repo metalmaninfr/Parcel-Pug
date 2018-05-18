@@ -1,0 +1,23 @@
+@mixin generic-button {
+  padding: 14px 0;
+  min-width: 100%;
+  display: inline-block;
+  border-radius: 4px;
+
+  outline: none;
+  cursor: pointer;
+  background: #4D61D6;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .9px;
+
+  transition: background .3s ease;
+  @include for-size(desktop-up) {
+    padding: 20px 0;
+  }
+  &:hover {
+    background: #4D7FD5;
+  }
+}

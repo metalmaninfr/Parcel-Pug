@@ -1,0 +1,28 @@
+// global
+@import './global/reset';
+@import './global/variables';
+
+// mixins
+@import './mixins/forsize';
+@import './mixins/button';
+@import './mixins/mixins';
+// components
+@import './components/header';
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
+
+::selection {
+    background-color: #b3d4fc;
+    color: #000;
+    text-shadow: none;
+}
